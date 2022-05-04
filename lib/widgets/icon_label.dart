@@ -6,6 +6,7 @@ class IconLabel extends StatelessWidget {
   final IconData icon;
   final String label;
   final Color color;
+ 
 
   IconLabel({@required this.icon, @required this.label, @required this.color});
 

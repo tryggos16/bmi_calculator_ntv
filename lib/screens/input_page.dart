@@ -19,15 +19,22 @@ class InputPage extends StatefulWidget {
 class _InputPageState extends State<InputPage> {
   Gender gender;
   int height = 180;
-  int weight = 60;
-  int age = 20;
+  int weight = 80;
+  int age = 21;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        titleTextStyle: const TextStyle(
+          color: Colors.green,
+          fontSize: 35.0,
+          fontWeight: FontWeight.bold,
+        ),
+        backgroundColor: const Color(0xFF0A0D22),
         title: const Center(
-            child: Text('BMI CALCULATOR')),
+            child: Text('BMI CALCULATOR')
+        ),
       ),
       body: SafeArea(
         child: Column(
